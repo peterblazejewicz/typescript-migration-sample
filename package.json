@@ -1,0 +1,27 @@
+{
+  "name": "people-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --config ./.prettierrc --write 'src/**/*.{ts,js}'",
+    "serve": "serve . -c ./serve.json",
+    "build:w": "tsc --watch true",
+    "build:debug:w": "tsc -p ./tsconfig.debug.json --watch true",
+    "build": "tsc",
+    "build:debug": "tsc -p ./tsconfig.debug.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/angular": "^1.6.51",
+    "prettier": "^1.15.3",
+    "serve": "^10.1.1",
+    "typescript": "^3.2.1"
+  },
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.20",
+    "angular": "^1.7.5"
+  }
+}

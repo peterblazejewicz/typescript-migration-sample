@@ -1,0 +1,7 @@
+{
+  "renderSingle": true,
+  "cleanUrls": [
+    "/app/**",
+    "!/**/*.components.html"
+  ]
+}
